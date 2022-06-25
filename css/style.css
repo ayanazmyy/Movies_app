@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* =============== search section ============== */
+
+.search-bars input,
+.contact input {
+    background-color: black;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+
+.search-bars input:focus,
+.contact input:focus {
+    background-color: black;
+}
+
+.search-bars, .contact {
+    width: 90%;
+}
+
+.search-icon {
+    color: gray
+}
+
+/* =================== page content section ================= */
+.desc-layer {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    transition: all 1s;
+    color: black;
+}
+
+.show-item:hover .desc-layer {
+    transform: translateY(0);
+}
+
+.search-bars input::placeholder,
+.contact input::placeholder {
+    text-align: center;
+}
+
+/* =================== contact section ===================== */
+
+.contact-title {
+    font-size: 32px;
+}
+
+.contact-btn {
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ==================== side menu section ========================== */
+
+.side-menu-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    transition: all 1s;
+}
+
+.side-menu {
+    background-color: black;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.menu-controls .icon {
+    color: black !important;
+    cursor: pointer;
+}
+
+.side-menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

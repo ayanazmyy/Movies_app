@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container py-5">
+        <!-- ================== search section ====================== -->
+        <div class="search-bars mx-auto">
+            <div class="search-left w-50 mx-auto d-flex align-items-center">
+                <input type="search" class="search-by-word form-control" placeholder="Get movie by word...">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>    
+        </div>
+
+        <!-- =================== shows section ====================== -->
+        <div class="shows pb-5">
+            <div class="row page-content">
+
+            </div>
+        </div>
+
+        <!-- =================== contact section ===================== -->
+        <div id="contact" class="contact mx-auto">
+            <p class="contact-title">Contact us</p>
+            <div class="contact-inputs row mx-auto">
+                <div class="col-md-6 mb-4">
+                    <input type="text" class="search-item form-control nameInput" placeholder="Enter your name...">
+                    <div id="nameAlert" class="alert alert-dark d-none" role="alert">
+                        Please enter a valid name contains 3-20 character
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <input type="email" class="search-item form-control emailInput" placeholder="Enter your email...">
+                    <div id="emailAlert" class="alert alert-dark d-none" role="alert">
+                        Please enter a valid email
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <input type="tel" class="search-item form-control phoneInput" placeholder="Enter your phone...">
+                    <div id="phoneAlert" class="alert alert-dark d-none" role="alert">
+                        Please enter a valid phone number
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <input type="number" class="search-item form-control ageInput" placeholder="Enter your age...">
+                    <div id="ageAlert" class="alert alert-dark d-none" role="alert">
+                        Please enter a valid age
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <input type="password" class="search-item form-control passwordInput" placeholder="Enter your password...">
+                </div>
+                <div class="col-md-6 mb-4">
+                    <input type="password" class="search-item form-control re-passwordInput" placeholder="Re-enter your password...">
+                    <div id="repasswordAlert" class="alert alert-dark d-none" role="alert">
+                        Passwords don't match!
+                    </div>
+                </div>
+            </div>
+            <button class="btn contact-btn">Submit</button>
+        </div>
+
+
+        <!-- =============== side-menu section ======================== -->
+        <div class="side-menu-container">
+            <div class="side-menu d-flex">
+                <div class="menu pe-5 pt-3">
+                    <a class="wow fadeInUpBig">Now playing</a>
+                    <a class="wow fadeInUpBig">Popular</a>
+                    <a class="wow fadeInUpBig">Top rated</a>
+                    <a class="wow fadeInUpBig">Trending</a>
+                    <a class="wow fadeInUpBig">Upcoming</a>
+                    <a class="wow fadeInUpBig" href="#contact">Contact us</a>
+
+                    <div class="menu-bottom">
+                        <div class="social-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="copy-rights">
+                            Copyright Â© 2019 All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-controls pt-3 bg-light d-flex flex-column justify-content-between">
+                    <div class="m-top logo text-center">
+                        <img class="w-50" src="images/logo.png" alt="">
+                    </div>
+                    <div class="m-middle mx-auto text-center">
+                        <i class="fa-solid fa-bars icon fa-2xl"></i>
+                    </div>
+                    <div class="m-bottom  text-center">
+                        <div>
+                            <i class="fa-solid fa-globe icon"></i>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-share-nodes icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
